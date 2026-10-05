@@ -1,0 +1,108 @@
+*
+{
+  box-sizing: border-box;
+}
+
+body 
+{ 
+  margin: 0; 
+  background: black; 
+}
+
+.playground
+{
+  background: lightgreen;
+
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50% , -50%);
+
+  width: 1000px;
+  height: 600px;
+}
+
+.title
+{
+  color: #004040;
+  font-size: 30px;
+  font-weight: bold;
+
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.form
+{
+  background: lightgray;
+  font-family: Arial;
+
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  padding: 10px;
+  display: flex;
+
+  border-radius: 50px;
+
+  width: 300px;
+  height: 50px;
+
+  gap: 10px;
+  align-items: center;
+}
+
+.form input
+{
+  width: 90%;
+  height: 90%;
+
+  border: none;
+  outline: none;
+  border-radius: 50px;
+
+  font-size: 15px;
+}
+
+.form_button
+{
+  height: 30px;
+
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+
+.todo_list
+{
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+.todo 
+{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  width: 500px;
+  justify-content: space-between;
+
+  background: black;
+  color: white;
+
+  padding: 10px 20px;
+  margin-bottom: 10px;
+
+  border-radius: 25px;
+
+  margin-bottom: 10px;
+}
+
+.trash
+{
+  display: flex;
+  align-items: right;
+}
