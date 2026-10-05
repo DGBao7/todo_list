@@ -106,3 +106,17 @@ body
   display: flex;
   align-items: right;
 }
+
+.popup
+{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+
+    background: #222;
+    color: white;
+
+    padding: 30px;
+    border-radius: 15px;
+}

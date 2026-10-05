@@ -10,6 +10,17 @@ function _check_length(
     return false
 }
 
+export function _delete(
+    key , todo_list , _set_todo_list
+)
+{
+    _set_todo_list(
+        todo_list.filter(
+            (todo , index) => index != key
+        )
+    )
+}
+
 export function _submit(
     e ,
     text , _set_text ,
